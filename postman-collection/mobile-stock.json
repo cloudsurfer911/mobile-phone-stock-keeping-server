@@ -1,0 +1,215 @@
+{
+    "info": {
+      "name": "Mobile Phone Stock Keeping API",
+      "_postman_id": "abc12345-def6-7890-ghij-klmnopqrstuv",
+      "description": "Collection of API endpoints for managing mobile phone stock in a device farm.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Add Device",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"id\": \"1\",\n  \"model\": \"iPhone 13\",\n  \"brand\": \"Apple\",\n  \"category\": \"Smartphone\",\n  \"serialNumber\": \"SN123456789\",\n  \"status\": \"available\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:3001/devices",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3001",
+            "path": [
+              "devices"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Get All Devices",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3001/devices",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3001",
+            "path": [
+              "devices"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Delete Device",
+        "request": {
+          "method": "DELETE",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3001/devices/1",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3001",
+            "path": [
+              "devices",
+              "1"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Add Brand",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"id\": \"1\",\n  \"name\": \"Apple\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:3001/brands",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3001",
+            "path": [
+              "brands"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Get All Brands",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3001/brands",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3001",
+            "path": [
+              "brands"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Delete Brand",
+        "request": {
+          "method": "DELETE",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3001/brands/1",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3001",
+            "path": [
+              "brands",
+              "1"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Add Category",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"id\": \"1\",\n  \"name\": \"Smartphone\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:3001/categories",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3001",
+            "path": [
+              "categories"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Get All Categories",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3001/categories",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3001",
+            "path": [
+              "categories"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Delete Category",
+        "request": {
+          "method": "DELETE",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3001/categories/1",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3001",
+            "path": [
+              "categories",
+              "1"
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+  

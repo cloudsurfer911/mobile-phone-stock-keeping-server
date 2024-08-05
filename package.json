@@ -1,0 +1,22 @@
+{
+  "name": "mobile-phone-stock-keeping-server",
+  "version": "1.0.0",
+  "description": "sample server to do performance testing on",
+  "main": "mobile-stock/server.js",
+  "scripts": {
+    "start": "node mobile-stock/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sample",
+    "mobile-phone",
+    "device-farm"
+  ],
+  "author": "Sujith Subramanian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
