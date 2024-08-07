@@ -1,19 +1,38 @@
-# mobile-phone-stock-keeping-server
-sample mobile stock keeping server
+# Mobile Phone Stock Keeping Server Sample Application for API tests and Load tests
 
+This project provides a sample mobile stock-keeping server.
 
+## Steps to Run the API Server
 
-# Steps to run the API server
+1. **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    ```
 
-# 1. clone the repository
+2. **Navigate to the project directory:**
+    ```bash
+    cd mobile-phone-stock-keeping-server/
+    ```
 
-# 2. cd  to project 
-cd mobile-phone-stock-keeping-server/
+3. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+    If you encounter permission issues, you can use `sudo`:
+    ```bash
+    sudo npm install
+    ```
 
-# 3. npm install or sudo npm install
+4. **Start the server:**
+    ```bash
+    npm start
+    ```
 
-# 4. npm start to start the server
+5. **Make API calls:**
+    - Use automation or performance testing tools as needed.
+    - Import the API collection to Postman from `postman-collection/mobile-stock.json`.
 
-# 5. Make API calls using automation or performance test, use postcan-collection/mobile-stock.json to import apis to POSTMAN
+## Notes
 
-
+- Ensure that you have Node.js and npm installed before starting the server.
+- For more details on the API endpoints, refer to the Postman collection provided.
