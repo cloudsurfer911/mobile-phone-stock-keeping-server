@@ -1,4 +1,4 @@
-# Mobile Phone Stock Keeping Server Sample Application for API tests and Load tests
+# Mobile Phone Stock Keeping Server
 
 This project provides a sample mobile stock-keeping server.
 
@@ -6,10 +6,10 @@ This project provides a sample mobile stock-keeping server.
 
 1. **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/cloudsurfer911/mobile-phone-stock-keeping-server/
     ```
 
-2. **Navigate to the project directory:**
+2. **Go to the project directory:**
     ```bash
     cd mobile-phone-stock-keeping-server/
     ```
@@ -18,21 +18,14 @@ This project provides a sample mobile stock-keeping server.
     ```bash
     npm install
     ```
-    If you encounter permission issues, you can use `sudo`:
-    ```bash
-    sudo npm install
-    ```
 
 4. **Start the server:**
     ```bash
     npm start
     ```
+    The server script `mobile-stock/server.js`.
 
 5. **Make API calls:**
     - Use automation or performance testing tools as needed.
     - Import the API collection to Postman from `postman-collection/mobile-stock.json`.
 
-## Notes
-
-- Ensure that you have Node.js and npm installed before starting the server.
-- For more details on the API endpoints, refer to the Postman collection provided.
